@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:focus_band",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.025
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:muscle_band",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.025
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:wepear_berry",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.025
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ]
+    }
+  ]
+}
