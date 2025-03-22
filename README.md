@@ -2,7 +2,7 @@
 
 ![Cobblemon Pasture](logo/banner.png)
 
-This script generates loot tables in `.json` format for Minecraft from `.csv` raw data. It is designed for the [Cobblemon Pasture Collector](https://modrinth.com/mod/cobblemon-pasturecollector) mod.
+This script generates loot tables in `.json` format for Minecraft from `.csv` raw data. It is designed for the [Cobblemon Pasture Collector](https://modrinth.com/mod/cobblemon-pasturecollector) mod. This project is a datapack for the mod and does nothing by itself.
 
 ## What It Does
 
@@ -28,29 +28,34 @@ The Cobblemon Pasture Loot Generator reads data from CSV files and creates corre
 1. **Clone the Repository**:
    - Clone the repository to your local machine using the following command:
      ```sh
-     git clone <repository-url>
+     git clone https://github.com/porkyoot/pasturecollector.git
      ```
 
 2. **Navigate to the Project Directory**:
    - Open a terminal and navigate to the project directory:
      ```sh
-     cd Cobblemon-Pasture-Loot-Generator
+     cd pasturecollector
      ```
 
 3. **Install Required Libraries**:
-   - Open the `gen.ipynb` file in VS Code.
-   - Run the following cell to install the required libraries:
-     ```python
-     %pip install --upgrade pip
-     %pip install jupyter pandas
+   - Run the following commands to install the required libraries:
+     ```sh
+     pip install --upgrade pip
+     pip install jupyter pandas
      ```
 
 ### Running the Script
 
-1. **Open the Jupyter Notebook**:
+1. **Set the BLACKLIST Environment Variable**:
+   - Before running the script, set the `BLACKLIST` environment variable to "true" to enable the blacklist functionality:
+     ```sh
+     set BLACKLIST=true
+     ```
+
+2. **Open the Jupyter Notebook**:
    - Open the `gen.ipynb` file in VS Code.
 
-2. **Run the Cells**:
+3. **Run the Cells**:
    - Run each cell in the notebook sequentially to execute the script. This will read the CSV files and generate the corresponding JSON files in the specified output directory.
 
 ### CSV File Structure
@@ -59,6 +64,11 @@ The Cobblemon Pasture Loot Generator reads data from CSV files and creates corre
 - **rolls.csv**: Contains the rarity chances data.
 - **cobblemon_items.csv**: Contains the Cobblemon items data.
 - **minecraft_items.csv**: Contains the Minecraft items data.
+- **blacklist.csv**: Contains the list of items to be blacklisted.
+
+### Blacklist
+
+The script includes a blacklist of items that should not be included in the generated loot tables. If an item is found in the blacklist, it will be skipped, and a warning message will be printed. This ensures that certain items are excluded from the loot tables as needed. To enable the blacklist functionality, set the `BLACKLIST` environment variable to "true" before running the script.
 
 ### Output
 
@@ -66,8 +76,10 @@ The generated JSON files will be saved in the `data/pasturecollector/loot_tables
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
 
 ## Acknowledgements
 
-- [Cobblemon Pasture Collector](https://modrinth.com/mod/cobblemon-pasturecollector) mod for providing the inspiration and data for this project.
+- [Cobblemon Pasture Collector](https://modrinth.com/mod/cobblemon-pasturecollector) mod for providing the awesome mod that this project is based on.
+- @Hellrqiser for the idea, the data and the tests
+- @porkyoot for the scripts, logos and release
