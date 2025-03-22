@@ -45,7 +45,7 @@ jobs:
         with:
           type: 'zip'
           filename: 'pasturecollector-loot.zip'
-          exclusions: '*.git* *.zip *.xcf *.bbmodel scripts/* README.md LICENSE.md .github/*'
+          exclusions: '*.git* *.zip *.xcf *.bbmodel scripts/* README.md LICENSE.md .github/* logo/*'
       
       - name: Run script with blacklist
         run: |
@@ -59,7 +59,7 @@ jobs:
         with:
           type: 'zip'
           filename: 'pasturecollector-loot-w-blacklist.zip'
-          exclusions: '*.git* *.zip *.xcf *.bbmodel scripts/* README.md LICENSE.md .github/*'
+          exclusions: '*.git* *.zip *.xcf *.bbmodel scripts/* README.md LICENSE.md .github/* logo/*'
 
       - name: Bump version and push tag
         id: tag_version

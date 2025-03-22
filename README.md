@@ -1,6 +1,6 @@
 # Cobblemon Pasture Loot Generator
 
-![Cobblemon Pasture](pack.png)
+![Cobblemon Pasture](logo/banner.png)
 
 This script generates loot tables in `.json` format for Minecraft from `.csv` raw data. It is designed for the [Cobblemon Pasture Collector](https://modrinth.com/mod/cobblemon-pasturecollector) mod.
 
