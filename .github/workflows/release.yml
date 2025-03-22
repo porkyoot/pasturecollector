@@ -35,7 +35,9 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           # pip install -r requirements.txt
-          python3 scripts/gen.py
+          cd scripts
+          python3 gen.py
+          cd ..
 
       # Runs a set of commands using the runners shell
       - name: Making release zip file
@@ -47,8 +49,11 @@ jobs:
       
       - name: Run script with blacklist
         run: |
-          BLACKLIST=true
-          python3 scripts/gen.py
+          cd scripts
+          export BLACKLIST=true
+          python3 gen.py
+          cd ..
+      
       - name: Making release zip file
         uses: TheDoctor0/zip-release@0.7.6
         with:
