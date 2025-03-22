@@ -6,7 +6,7 @@
 # We first install the libraries using `pip`
 
 # %%
-%pip install --upgrade pip
+#%pip install --upgrade pip
 
 # %% [markdown]
 # We then import the libraries in order to use them in the code.
@@ -65,13 +65,27 @@ with open(minecraft_items_csv_path, mode='r') as file:
 print("Items dictionary loaded successfully.")
 print(items_dict)
 
+# %%
+# Define file path for blacklist CSV
+blacklist_csv_path = 'blacklist.csv'
+
+# Read blacklist.csv to get the blacklisted item IDs
+blacklisted_items = set()
+# Check if BLACKLIST environment variable is set to 'true'
+if os.getenv('BLACKLIST', 'false').lower() == 'true':
+    with open(blacklist_csv_path, mode='r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            blacklisted_items.add(row['Item ID'].lower())
+    print("Blacklisted items loaded successfully.")
+    print(blacklisted_items)
+else:
+    print("Blacklist is disabled.")
+
 # %% [markdown]
 # That's the big one ! We read the drops and for each line we make a json file. For each pokemon the rarity will dictate the random tick chance. For each drop we try to check if it's a valid id, if not we try to match the name perfectly to one in the item list. If all fails we try a near match and give a warning. If it's too far off we throw an error.
 
 # %%
-from difflib import get_close_matches
-
-
 # Read drops.csv and generate JSON files
 with open(drops_csv_path, mode='r') as file:
     reader = csv.DictReader(file)
@@ -83,9 +97,9 @@ with open(drops_csv_path, mode='r') as file:
         entries = []
         for i in range(1, 6):
             drop = row[f'Drops{i}']
-            print(f"Drop {i}: {drop}")
+            #print(f"Drop {i}: {drop}")
             if drop:
-                match = re.match(r'(.+?)\s+([\d\-\.%]+)$', drop)
+                match = re.match(r'([\w\s:]*?)(?:\s([\d\-\.%]+))+$', drop)
                 if match:
                     item = match.group(1).lower()
                     count = match.group(2)
@@ -105,6 +119,9 @@ with open(drops_csv_path, mode='r') as file:
                     else:
                         print(f"Error: Item '{item}' not found and no close match available.")
                         continue
+                if item_id in blacklisted_items:
+                    print(f"Warning: Item '{item}' is blacklisted. Skipping.")
+                    continue
                 if '-' in count:
                     min_count, max_count = map(int, count.split('-'))
                     count = {"min": min_count, "max": max_count}
