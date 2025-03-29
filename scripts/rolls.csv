@@ -1,6 +1,6 @@
 rarity,chance,minecraft:random_chance
-common,30%,0.15
-uncommon,20%,0.10
-rare,10%,0.05
-ultra-rare,6%,0.03
-legendary,3%,0.01
+common,30%,0.30
+uncommon,20%,0.20
+rare,10%,0.10
+ultra-rare,6%,0.06
+legendary,3%,0.03
