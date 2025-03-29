@@ -1,6 +1,6 @@
-rarity,chance,minecraft:random_chance,,pkmn test
-common,15%,0.15,,wooloo
-uncommon,10%,0.10,,flittle
-rare,5%,0.05,,whiscash
-ultra-rare,3%,0.03,,squirtle
-legendary,1%,0.01,,darkrai
+rarity,chance,minecraft:random_chance
+common,30%,0.15
+uncommon,20%,0.10
+rare,10%,0.05
+ultra-rare,6%,0.03
+legendary,3%,0.01

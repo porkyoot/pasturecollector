@@ -25,19 +25,23 @@ Cooked Chicken,minecraft:cooked_chicken
 Dark Oak Sapling,minecraft:dark_oak_sapling
 Diamond,minecraft:diamond
 Dragon's Breath,minecraft:dragon_breath
+Echo Shard,minecraft:echo_shard
 Egg,minecraft:egg
 Emerald,minecraft:emerald
 Ender Pearl,minecraft:ender_pearl
 Feather,minecraft:feather
 Flint,minecraft:flint
 Glow Ink Sac,minecraft:glow_ink_sac
-Golden Helmet,minecraft:golden_helmet
 Gold Nugget,minecraft:gold_nugget
+Golden Helmet,minecraft:golden_helmet
+Green Dye,minecraft:green_dye
 Gunpowder,minecraft:gunpowder
 Heart of the Sea,minecraft:heart_of_the_sea
 Honey Bottle,minecraft:honey_bottle
 Honeycomb,minecraft:honeycomb
 Ink Sac,minecraft:ink_sac
+Iron Helmet,minecraft:iron_helmet
+Iron Ingot,minecraft:iron_ingot
 Iron Nugget,minecraft:iron_nugget
 Iron Sword,minecraft:iron_sword
 Kelp,minecraft:kelp
@@ -47,10 +51,12 @@ Lily of the Valley,minecraft:lily_of_the_valley
 Lily Pad,minecraft:lily_pad
 Magma Cream,minecraft:magma_cream
 Melon Seeds,minecraft:melon_seeds
+Mud,minecraft:mud
 Name Tag,minecraft:name_tag
 Nautilus Shell,minecraft:nautilus_shell
 Nether Quartz,minecraft:quartz
 Nether Star,minecraft:nether_star
+Ochre Froglight,minecraft:ochre_froglight
 Pearlescent Froglight,minecraft:pearlescent_froglight
 Phantom Membrane,minecraft:phantom_membrane
 Poppy,minecraft:poppy
