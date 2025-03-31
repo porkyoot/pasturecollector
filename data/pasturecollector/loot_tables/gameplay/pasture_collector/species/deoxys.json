@@ -5,11 +5,54 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air",
+          "name": "cobblemon:rare_candy",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_crystal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.33299999999999996
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.33299999999999996
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.33299999999999996
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_capsule",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.25
             }
           ]
         }
@@ -17,7 +60,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.01
+          "chance": 0.03
         }
       ]
     }

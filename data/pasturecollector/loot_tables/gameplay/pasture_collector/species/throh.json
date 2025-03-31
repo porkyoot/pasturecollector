@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:black_belt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:razz_berry",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:expert_belt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.05
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0
+        }
+      ]
+    }
+  ]
+}

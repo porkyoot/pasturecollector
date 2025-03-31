@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:lucky_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:shiny_stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fairy_feather",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.05
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0
+        }
+      ]
+    }
+  ]
+}

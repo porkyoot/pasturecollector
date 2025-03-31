@@ -2,11 +2,6 @@
 # # A Cobblemon Pasture Loot Generator
 # 
 # This script is meant to create loot tables in `.json` for Minecraft from `.csv` raw data.
-# 
-# We first install the libraries using `pip`
-
-# %%
-#%pip install --upgrade pip
 
 # %% [markdown]
 # We then import the libraries in order to use them in the code.
@@ -115,12 +110,19 @@ with open(drops_csv_path, mode='r') as file:
                     close_matches = get_close_matches(item, items_dict.keys(), n=1, cutoff=0.6)
                     if close_matches:
                         item_id = items_dict[close_matches[0]]
-                        print(f"Warning: Item '{item}' not found. Using closest match '{close_matches[0]}' instead.")
                     else:
-                        print(f"Error: Item '{item}' not found and no close match available.")
-                        continue
+                        close_matches = get_close_matches(item, items_dict.values(), n=1, cutoff=0.6)
+                        if close_matches:
+                            item_id = close_matches[0]
+                        else:
+                            print(f"Error: Item '{item}' not found and no close match available.")
+                            continue
+                    print(f"Warning: Item '{item}' not found. Using closest match '{close_matches[0]}' instead.")
                 if item_id in blacklisted_items:
                     print(f"Warning: Item '{item}' is blacklisted. Skipping.")
+                    continue
+                if not item_id.startswith('minecraft:') and not item_id.startswith('cobblemon:'):
+                    print(f"Warning: Item '{item}' does not start with 'minecraft:' or 'cobblemon:'. Skipping.")
                     continue
                 if '-' in count:
                     min_count, max_count = map(int, count.split('-'))

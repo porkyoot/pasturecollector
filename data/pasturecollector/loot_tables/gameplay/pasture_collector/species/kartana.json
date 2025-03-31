@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rare_candy",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:miracle_seed",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:metal_coat",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_capsule",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.25
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_patch",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.05
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.06
+        }
+      ]
+    }
+  ]
+}

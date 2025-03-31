@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:mental_herb",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.025
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:roseli_berry",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0.025
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0
+        }
+      ]
+    }
+  ]
+}

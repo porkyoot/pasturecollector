@@ -86,8 +86,8 @@ No.,Pokemon,Drops1,Drops2,Drops3,Drops4,Drops5,Drops6,Rarity
 85,dodrio,minecraft:feather 0-2,minecraft:chicken 1,cobblemon:sharp_beak 5%,cobblemon:wacan_berry 5%,,,common
 86,seel,minecraft:cod 0-1,cobblemon:never_melt_ice 2.5%,cobblemon:aspear_berry 2.5%,,,,common
 87,dewgong,minecraft:cod 0-2,cobblemon:never_melt_ice 5%,cobblemon:aspear_berry 5%,,,,common
-88,grimer,minecraft:slime_ball 0-1,cobblemon:black_sudge 2.5%,cobblemon:toxic_orb 2.5%,,,,uncommon
-89,muk,minecraft:slime_ball 0-2,cobblemon:black_sudge 5%,cobblemon:toxic_orb 5%,,,,uncommon
+88,grimer,minecraft:slime_ball 0-1,cobblemon:black_sludge 2.5%,cobblemon:toxic_orb 2.5%,,,,uncommon
+89,muk,minecraft:slime_ball 0-2,cobblemon:black_sludge 5%,cobblemon:toxic_orb 5%,,,,uncommon
 90,shellder,cobblemon:aspear_berry 2.5%,cobblemon:shell_bell 2.5%,,,,,common
 91,cloyster,cobblemon:aspear_berry 5%,cobblemon:shell_bell 5%,,,,,common
 92,gastly,cobblemon:spell_tag 2.5%,cobblemon:payapa_berry 2.5%,,,,,uncommon
@@ -107,12 +107,12 @@ No.,Pokemon,Drops1,Drops2,Drops3,Drops4,Drops5,Drops6,Rarity
 106,hitmonlee,cobblemon:black_belt 5%,cobblemon:payapa_berry 5%,,,,,uncommon
 107,hitmonchan,cobblemon:black_belt 5%,cobblemon:payapa_berry 5%,,,,,uncommon
 108,lickitung,minecraft:slime_ball 0-1,cobblemon:oran_berry 2.5%,,,,,uncommon
-109,koffing,cobblemon:black_sudge 2.5%,cobblemon:smoke_ball 2.5%,,,,,common
-110,weezing,cobblemon:black_sudge 5%,,,,,,common
+109,koffing,cobblemon:black_sludge 2.5%,cobblemon:smoke_ball 2.5%,,,,,common
+110,weezing,cobblemon:black_sludge 5%,,,,,,common
 111,rhyhorn,cobblemon:protector 2.5%,cobblemon:passho_berry 2.5%,,,,,common
 112,rhydon,cobblemon:protector 5%,cobblemon:passho_berry 5%,,,,,common
 113,chansey,cobblemon:lucky_egg 10%,cobblemon:oval_stone 10%,minecraft:egg 50%,,,,rare
-114,tangela,minecraft:air 0-1,cobblemon:big_root 2.5%,,,,,common
+114,tangela,cobblemon:big_root 2.5%,,,,,common
 115,kangaskhan,cobblemon:chilan_berry 5%,,,,,,rare
 116,horsea,minecraft:prismarine_shard 0-1,cobblemon:dragon_scale 2.5%,,,,,common
 117,seadra,minecraft:prismarine_shard 0-2,cobblemon:dragon_scale 5%,,,,,common
@@ -184,7 +184,7 @@ No.,Pokemon,Drops1,Drops2,Drops3,Drops4,Drops5,Drops6,Rarity
 183,marill,cobblemon:kebia_berry 5%,,,,,,uncommon
 184,azumarill,cobblemon:kebia_berry 10%,,,,,,rare
 185,sudowoodo,cobblemon:hard_stone 5%,cobblemon:passho_berry 5%,,,,,uncommon
-186,politoed,minecraft:air 1,cobblemon:kings_rock 10%,cobblemon:chesto_berry 10%,,,,common
+186,politoed,cobblemon:kings_rock 10%,cobblemon:chesto_berry 10%,,,,common
 187,hoppip,cobblemon:yache_berry 2.5%,,,,,,common
 188,skiploom,minecraft:sunflower 1,cobblemon:yache_berry 5%,,,,,common
 189,jumpluff,minecraft:white_wool 1-3,cobblemon:yache_berry 10%,,,,,uncommon
@@ -242,13 +242,13 @@ No.,Pokemon,Drops1,Drops2,Drops3,Drops4,Drops5,Drops6,Rarity
 241,miltank,minecraft:leather 0-2,minecraft:beef 1-3,cobblemon:oran_berry 5%,,,,common
 242,blissey,cobblemon:lucky_egg 25%,cobblemon:oval_stone 25%,minecraft:egg 50%,,,,rare
 243,raikou,cobblemon:magnet 1,,,,,,legendary
-244,entei,cobblemon:charcoal_stick 1,minecraft:air 1,,,,,legendary
+244,entei,cobblemon:charcoal_stick 1,,,,,legendary
 245,suicune,cobblemon:mystic_water 1,,,,,,legendary
 246,larvitar,cobblemon:hard_stone 2.5%,cobblemon:chople_berry 2.5%,,,,,ultra-rare
 247,pupitar,cobblemon:hard_stone 5%,cobblemon:chople_berry 5%,,,,,ultra-rare
 248,tyranitar,cobblemon:hard_stone 10%,cobblemon:chople_berry 10%,,,,,ultra-rare
 249,lugia,minecraft:feather 2-4,,,,,,legendary
-250,hooh,minecraft:feather 2-4,minecraft:air 1,,,,,legendary
+250,hooh,minecraft:feather 2-4,,,,,legendary
 251,celebi,cobblemon:miracle_seed 1,,,,,,legendary
 252,treecko,minecraft:stick 0-1,cobblemon:miracle_seed 5%,,,,,ultra-rare
 253,grovyle,minecraft:stick 0-2,cobblemon:miracle_seed 10%,,,,,ultra-rare
@@ -299,7 +299,7 @@ No.,Pokemon,Drops1,Drops2,Drops3,Drops4,Drops5,Drops6,Rarity
 298,azurill,cobblemon:kebia_berry 2.5%,,,,,,uncommon
 299,nosepass,minecraft:flint 0-1,cobblemon:hard_stone 2.5%,cobblemon:magnet 2.5%,cobblemon:chople_berry 2.5%,,,uncommon
 300,skitty,cobblemon:silk_scarf 2.5%,cobblemon:pecha_berry 2.5%,,,,,common
-301,delcatty,cobblemon:silk_scarf 5%,cobblemon:pecha_berry 5%,minecraft:air 1-3 33% ,,,,uncommon
+301,delcatty,cobblemon:silk_scarf 5%,cobblemon:pecha_berry 5%,,,,uncommon
 302,sableye,minecraft:amethyst_shard 0-2,minecraft:diamond 5%,minecraft:emerald 5%,cobblemon:roseli_berry 5%,,,rare
 303,mawile,cobblemon:razor_fang 5%,cobblemon:occa_berry 5%,,,,,rare
 304,aron,minecraft:raw_iron 0-1,cobblemon:hard_stone 2.5%,cobblemon:chople_berry 2.5%,,,,uncommon
@@ -406,10 +406,10 @@ No.,Pokemon,Drops1,Drops2,Drops3,Drops4,Drops5,Drops6,Rarity
 405,luxray,cobblemon:quick_claw 10%,cobblemon:shuca_berry 10%,,,,,uncommon
 406,budew,cobblemon:poison_barb 2.5%,cobblemon:absorb_bulb 2.5%,cobblemon:pecha_berry 2.5%,,,,common
 407,roserade,minecraft:rose_bush 1-2,cobblemon:poison_barb 10%,cobblemon:absorb_bulb 10%,cobblemon:pecha_berry 10%,,,common
-408,cranidos,minecraft:air 0-1,,,,,,ultra-rare
-409,rampardos,minecraft:air 0-2,,,,,,ultra-rare
-410,shieldon,minecraft:air 0-1,,,,,,ultra-rare
-411,bastiodon,minecraft:air 0-2,,,,,,ultra-rare
+408,cranidos,,,,,,ultra-rare
+409,rampardos,,,,,,ultra-rare
+410,shieldon,,,,,,ultra-rare
+411,bastiodon,,,,,,ultra-rare
 412,burmy,minecraft:string 0-1,cobblemon:occa_berry 2.5%,,,,,
 413,wormadam,minecraft:string 0-2,cobblemon:occa_berry 5%,,,,,
 414,mothim,cobblemon:silver_powder 5%,cobblemon:occa_berry 5%,,,,,
@@ -429,8 +429,8 @@ No.,Pokemon,Drops1,Drops2,Drops3,Drops4,Drops5,Drops6,Rarity
 428,lopunny,minecraft:rabbit 1,minecraft:rabbit_hide 0-2,minecraft:rabbit_foot 5%,minecraft:carrot 5%,cobblemon:chople_berry 5%,,common
 429,mismagius,minecraft:phantom_membrane 5%,cobblemon:spell_tag 5%,cobblemon:kasib_berry 5%,,,,common
 430,honchkrow,minecraft:feather 0-3,minecraft:chicken 1,cobblemon:bluk_berry 5%,,,,common
-431,glameow,cobblemon:cheri_berry 2.5%,minecraft:air 0-1 33%,,,,,common
-432,purugly,cobblemon:cheri_berry 5%,minecraft:air 1-2 33%,,,,,uncommon
+431,glameow,cobblemon:cheri_berry 2.5%,,,,,common
+432,purugly,cobblemon:cheri_berry 5%,,,,,uncommon
 433,chingling,cobblemon:colbur_berry 2.5%,cobblemon:soothe_bell 2.5%,cobblemon:cleanse_tag 2.5%,,,,uncommon
 434,stunky,cobblemon:pecha_berry 2.5%,minecraft:ink_sac 33%,minecraft:slime_ball 33%,,,,common
 435,skuntank,cobblemon:pecha_berry 5%,minecraft:ink_sac 0-2 33%,minecraft:slime_ball 0-2 33%,,,,uncommon
@@ -463,7 +463,7 @@ No.,Pokemon,Drops1,Drops2,Drops3,Drops4,Drops5,Drops6,Rarity
 462,magnezone,minecraft:raw_iron 0-3,cobblemon:magnet 10%,cobblemon:metal_coat 10%,cobblemon:shuca_berry 10%,,,uncommon
 463,lickilicky,minecraft:slime_ball 0-2,cobblemon:oran_berry 5%,,,,,uncommon
 464,rhyperior,cobblemon:protector 10%,cobblemon:passho_berry 10%,,,,,common
-465,tangrowth,minecraft:air 0-2,cobblemon:big_root 5%,,,,,common
+465,tangrowth,cobblemon:big_root 5%,,,,,common
 466,electivire,minecraft:redstone 0-3,cobblemon:electirizer 10%,Cheri Berry 10%,,,,uncommon
 467,magmortar,minecraft:blaze_powder 10%,cobblemon:magmarizer 10%,cobblemon:rawst_berry 10%,,,,common
 468,togekiss,cobblemon:lucky_egg 10%,cobblemon:shiny_stone 10%,cobblemon:fairy_feather 10%,,,,
@@ -762,7 +762,7 @@ No.,Pokemon,Drops1,Drops2,Drops3,Drops4,Drops5,Drops6,Rarity
 761,bounsweet,cobblemon:persim_berry 2.5%,,,,,,common
 762,steenee,cobblemon:persim_berry 5%,,,,,,common
 763,tsareena,cobblemon:persim_berry 10%,,,,,,common
-764,comfey,minecraft:air 5%,cobblemon:kebia_berry 5%,,,,,rare
+764,comfey,cobblemon:kebia_berry 5%,,,,,rare
 765,oranguru,cobblemon:wise_glasses 5%,cobblemon:nanab_berry 5%,,,,,
 766,passimian,cobblemon:muscle_band 5%,cobblemon:payapa_berry 5%,,,,,
 767,wimpod,cobblemon:bluk_berry 2.5%,,,,,,uncommon
@@ -963,8 +963,8 @@ No.,Pokemon,Drops1,Drops2,Drops3,Drops4,Drops5,Drops6,Rarity
 962,bombirdier,minecraft:feather 0-2,minecraft:chicken 1,cobblemon:razz_berry 5%,,,,
 963,finizen,minecraft:cod 0-1,,,,,,uncommon
 964,palafin,minecraft:cod 0-2,,,,,,uncommon
-965,varoom,minecraft:iron_nugget 0-1,cobblemon:black_sudge 2.5%,cobblemon:shuca_berry 2.5%,,,,uncommon
-966,revavroom,minecraft:iron_nugget 0-2,cobblemon:black_sudge 5%,cobblemon:shuca_berry 5%,,,,uncommon
+965,varoom,minecraft:iron_nugget 0-1,cobblemon:black_sludge 2.5%,cobblemon:shuca_berry 2.5%,,,,uncommon
+966,revavroom,minecraft:iron_nugget 0-2,cobblemon:black_sludge 5%,cobblemon:shuca_berry 5%,,,,uncommon
 967,cyclizar,cobblemon:haban_berry 5%,,,,,,rare
 968,orthworm,minecraft:iron_nugget 0-2,cobblemon:shuca_berry 5%,,,,,rare
 969,glimmet,minecraft:amethyst_shard 0-1,cobblemon:shuca_berry 2.5%,cobblemon:float_stone 2.5%,,,,common
